@@ -1,0 +1,10 @@
+#gototop
+{
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	cursor: pointer;
+	display: none;
+	overflow: inherit;
+	z-index: 99;
+}

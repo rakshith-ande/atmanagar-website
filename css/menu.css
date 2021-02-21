@@ -1,0 +1,100 @@
+#item2
+{
+	color: white;
+}
+#idd
+{
+	font-family: 'Dhurjati', sans-serif;
+	font-weight: normal;
+}
+#item
+{
+	font-size: 17px;
+}
+#item:hover
+{
+	border-left: 2px solid white !important;
+	font-family: Lato;
+	font-variant: small-caps;
+	text-shadow: 2px;
+	font-size: 18px;
+}
+#update img
+{
+	height: 350px;
+	width: 650px;
+}
+#iframe
+{
+	margin-left: 0px;
+	width: 800px;
+	height: 400px;
+}
+@media screen and (max-width: 768px)
+{
+	#header
+	{
+		background-color: #2f5ea3;
+		height: 225px;
+	}
+	#sidemenu
+	{
+		display: block;
+	}
+	#nrmlmenu
+	{
+		display: none;
+	}
+	.demo-gallery > ul > li {
+	    float: left;
+	    width: 250px;
+	    margin-left: -45px;
+	}
+	#copyrights
+	{
+		color: white;
+		margin-left: 0px;
+		font-size: 15px;
+	}
+	#div
+	{
+		margin-top: -15px;
+	}
+	#notices
+	{
+		height: 30px;
+	}
+	#update img
+	{
+		height: 200px;
+		width: 300px;
+	}
+	#iframe
+	{
+		margin-left: 0px;
+		width: 270px;
+		height: 250px;
+	}
+}
+@media screen and (min-width: 769px)
+{
+	#header
+	{
+		background-color: #2f5ea3;
+		height: 190px;
+	}
+	#sidemenu
+	{
+		display: none;
+	}
+	.demo-gallery > ul > li {
+	    float: left;
+	    width: 250px;
+	}
+	#copyrights
+	{
+		color: white;
+		margin-left: 120px;
+		font-size: 15px;
+	}
+}
